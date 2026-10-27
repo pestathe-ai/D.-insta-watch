@@ -304,7 +304,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Text('Dati certi', style: theme.textTheme.titleMedium),
             const SizedBox(height: 4),
             Text(
-              'L'IA usa solo questi per referenza, anno e corredo: non li inventa.',
+              "L'IA usa solo questi per referenza, anno e corredo: non li inventa.",
               style: theme.textTheme.bodySmall,
             ),
             const SizedBox(height: 12),
