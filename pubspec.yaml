@@ -1,0 +1,23 @@
+name: insta_watch
+description: Crea post Instagram di vendita per orologi a partire dalle foto, con Gemini (gratis).
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  image_picker: ^1.2.4
+  share_plus: ^13.3.1
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
